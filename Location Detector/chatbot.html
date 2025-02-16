@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="PredictMED.css">
+    <link rel="shortcut icon" href="./public/PredictMed Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Header -->
+  <header class="w-full flex justify-between items-center p-6 shadow-sm bg-gradient-healthcare">
+    <div class="flex items-center space-x-2">
+      <img src="./public/PredictMed Logo.png" alt="PredictMed Logo" class="h-10 w-10 rounded-full">
+      <span class="text-2xl font-bold text-white">Predict<span class="text-purple-300">MED</span></span>
+    </div>
+    <nav class="flex space-x-4">
+      <a href="index.html" class="font-bold text-white hover:text-purple-300">Home</a>
+      <!-- <a href="#services" class="font-bold text-purple-400 hover:text-purple-700">Services</a> -->
+    </nav>
+  </header>
+
+    <!-- Chatbot Interface -->
+    <div class="chat-container flex flex-col h-screen">
+        <!-- Chat Messages -->
+        <div id="chatbox" class="flex-1 overflow-y-auto p-2 space-y-3">
+            <div class="text-white bg-gradient-to-r from-green-400 to-blue-500 border-0 py-2 px-6 focus:outline-none hover:from-green-500 hover:to-blue-600 rounded text-lg transform hover:scale-105 transition duration-300 ease-in-out p-3 rounded-lg self-start max-w-xs">Hello! How can I assist you today?</div>
+        </div>
+    
+        <!-- Input Box (Fixed at Bottom) -->
+        <div id="chatInputContainer" class="p-4 bg-gray-900 border-t flex items-center">
+            <input id="chatInput" type="text" placeholder="Type a message..." 
+                class="flex-1 p-2 border rounded-l-lg bg-gray-800 text-white focus:outline-none">
+                <button id="sendBtn" class=" text-white px-4 py-3 rounded-r-lg zoom-out">
+                    <i style="font-size:24px" class="fa">&#xf1d9;</i>
+                </button>
+        </div>
+    </div>
+    
+
+
+
+ <!-- Link JavaScript file -->
+ <script src="script.js"></script>
+
+</body>
+</html>
