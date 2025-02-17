@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Header from "../Header/Header.jsx";
 import "./Home.css";
 
 
@@ -7,7 +8,7 @@ function Home() {
   const navigate = useNavigate();
   return (
     <>
- 
+    <Header />
     <link rel="shortcut icon" href="./public/PredictMed Logo.png" type="image/x-icon"></link>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"></link>
    
@@ -20,11 +21,6 @@ function Home() {
         </h1>
         <p class="mb-8 leading-relaxed text-white">Discovering nearby hospitals is made effortless with our interactive website. Navigate seamlessly through a map interface that pinpoints hospitals in your vicinity, providing detailed information such as services offered, contact details, and directions. Whether you need emergency care or routine medical services, our platform ensures you find the closest healthcare facility quickly and efficiently.</p>
         <div class="flex justify-center">
-          {/* <a href="chatbot.jsx" class="inline-flex">
-            <button class="text-white bg-gradient-to-r from-green-400 to-blue-500 border-0 py-2 px-6 focus:outline-none hover:from-green-500 hover:to-blue-600 rounded text-lg transform hover:scale-105 transition duration-300 ease-in-out">
-              Locate Now!
-            </button>
-          </a>   */}
            <button 
       onClick={() => navigate("/Chatbot")}
       className="text-white bg-gradient-to-r from-green-400 to-blue-500 border-0 py-2 px-6 focus:outline-none hover:from-green-500 hover:to-blue-600 rounded text-lg transform hover:scale-105 transition duration-300 ease-in-out"
