@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Chatbot.css";
+import Header from "../Header/Header.jsx";
+
 function Chatbot() {
   const [messages, setMessages] = useState([
     { text: "Hello! How can I assist you today?", sender: "bot" }
   ]);
   const [input, setInput] = useState("");
+  const messagesEndRef = useRef(null);
 
   const sendMessage = () => {
     if (input.trim()) {
@@ -13,52 +17,42 @@ function Chatbot() {
     }
   };
 
+  // Auto-scroll to the latest message
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+
   return (
     <>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"></link>
-    <section class="text-gray-400 body-font">
-    <div className="h-screen flex flex-col  text-white">
-      {/* Chatbot Interface */}
-      <div className="chat-container flex flex-col flex-1 overflow-y-auto p-4 space-y-3">
-        {messages.map((msg, index) => (
-          <div
-            key={index}
-            className={`p-3 rounded-lg max-w-xs ${
-              msg.sender === "bot"
-                ? "self-start bg-gradient-to-r from-green-400 to-blue-500"
-                : "self-end bg-gradient-to-r from-blue-500 to-purple-600"
-            }`}
-          >
-            {msg.text}
-          </div>
-        ))}
-      </div>
+      <Header />
+      <div className="chat-container">
+        {/* Messages */}
+        <div className="chat-messages">
+          {messages.map((msg, index) => (
+            <div key={index} className={msg.sender === "bot" ? "bot-message" : "user-message"}>
+              {msg.text}
+            </div>
+          ))}
+          <div ref={messagesEndRef} />
+        </div>
 
-      {/* Input Box */}
-      <div className="p-4 bg-gray-800 border-t flex items-center">
-        <input
-          type="text"
-          placeholder="Type a message..."
-          className="flex-1 p-2 border rounded-l-lg bg-gray-700 text-white focus:outline-none"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyPress={(e) => e.key === "Enter" && sendMessage()}
-        />
-        <button className=" px-4 py-2 rounded-r-lg text-white zoom-out" onClick={sendMessage}>
-          <i className="fa fa-paper-plane text-xl" />
-        </button>
+        {/* Input Box */}
+        <div id="chatInputContainer">
+          <input
+            type="text"
+            placeholder="Type a message..."
+            id="chatInput"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyPress={(e) => e.key === "Enter" && sendMessage()}
+          />
+          <button id="sendButton" onClick={sendMessage}>
+            <i className="fa fa-paper-plane text-xl"></i>
+          </button>
+        </div>
       </div>
-    </div>
-    </section>
-    
     </>
   );
 }
 
 export default Chatbot;
-
-
-
-
-
-

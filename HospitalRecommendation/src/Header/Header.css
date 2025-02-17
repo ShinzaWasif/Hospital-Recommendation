@@ -1,0 +1,72 @@
+/* Gradient background for healthcare theme */
+.bg-gradient-healthcare {
+    /* background: linear-gradient(to right, #4A90E2, #9013FE); */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Header container */
+header {
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+/* Branding text */
+.branding {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.branding .predict {
+    color: white;
+}
+
+.branding .med {
+    color: #E6E6FA;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav button {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav button:hover {
+    color: #E6E6FA;
+    transform: scale(1.1);
+}

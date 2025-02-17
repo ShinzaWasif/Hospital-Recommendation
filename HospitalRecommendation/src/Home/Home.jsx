@@ -26,7 +26,7 @@ function Home() {
             </button>
           </a>   */}
            <button 
-      onClick={() => navigate("/MainChatbot")}
+      onClick={() => navigate("/Chatbot")}
       className="text-white bg-gradient-to-r from-green-400 to-blue-500 border-0 py-2 px-6 focus:outline-none hover:from-green-500 hover:to-blue-600 rounded text-lg transform hover:scale-105 transition duration-300 ease-in-out"
     >
       Locate Now!
