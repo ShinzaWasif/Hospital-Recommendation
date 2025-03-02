@@ -10,9 +10,24 @@ function Chatbot() {
   const [input, setInput] = useState("");
   const messagesEndRef = useRef(null);
 
+  const generateBotResponse = (userInput) => {
+    const responses = {
+      "hello": "Hi there! How can I help?",
+      "how are you": "I'm just a bot, but I'm doing great!",
+      "what is your name": "I'm a simple chatbot!",
+      "bye": "Goodbye! Have a great day!"
+    };
+
+    const lowerInput = userInput.toLowerCase();
+    return responses[lowerInput] || "I'm not sure how to respond to that.";
+  };
+
   const sendMessage = () => {
     if (input.trim()) {
-      setMessages([...messages, { text: input, sender: "user" }]);
+      const userMessage = { text: input, sender: "user" };
+      const botMessage = { text: generateBotResponse(input), sender: "bot" };
+      
+      setMessages((prevMessages) => [...prevMessages, userMessage, botMessage]);
       setInput("");
     }
   };
