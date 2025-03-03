@@ -1,0 +1,302 @@
+[
+    {
+        "Name": "Pak Emirates Military Hospital (PEMH)",
+        "City": "Rawalpindi",
+        "Province": "Punjab",
+        "Website": "-",
+        "Address": "H2VV+F6R, Abid Majeed Road, Rawalpindi",
+        "Specialization": "Multi-Disciplinary",
+        "ContactPerson": "-",
+        "Phone": "051-9273480"
+    },
+    {
+        "Name": "MedAsk Tours",
+        "City": "Rawalpindi",
+        "Province": "Punjab",
+        "Website": "www.medasktours.com",
+        "Address": "1st Floor AWT Plaza, Rawalpindi",
+        "Specialization": "Medical Tourism",
+        "ContactPerson": "Muhammad Hassaan",
+        "Phone": "0319-6048487"
+    },
+    {
+        "Name": "Agha Khan University Hospital",
+        "City": "Karachi",
+        "Province": "Sindh",
+        "Website": "https://hospitals.aku.edu/pakistan/karachi/pages/default.aspx",
+        "Address": "Stadium Road, P. O. Box 3500 Karachi",
+        "Specialization": "Cardiology Dental Oncology Orthopedics Cosmetic Surgery",
+        "ContactPerson": "Ibrahim Mustafa",
+        "Phone": "+92-302-8230979[email\u00a0protected]"
+    },
+    {
+        "Name": "Shoukat Khanum M Hospital",
+        "City": "Lahore",
+        "Province": "Punjab",
+        "Website": "https://shoukatkhanum.org.pk",
+        "Address": "7-A, Block R-3, MA Johar Town, Lahore, Pakistan",
+        "Specialization": "Cancer Treatment",
+        "ContactPerson": "Dr. Ahsan Malik",
+        "Phone": "+92-310-5338444[email\u00a0protected]"
+    },
+    {
+        "Name": "Shoukat Khanum M Hospital",
+        "City": "Peshawar",
+        "Province": "KPK",
+        "Website": "https://shoukatkhanum.org.pk",
+        "Address": "5-B, Sector A2, Phase 5 Hayatabad, Peshawar, Pakistan",
+        "Specialization": "Cancer Treatment",
+        "ContactPerson": "Dr. Ahsan Malik",
+        "Phone": "+92-310-5338444[email\u00a0protected]"
+    },
+    {
+        "Name": "Shifa International",
+        "City": "Islamabad",
+        "Province": "Federal Capital",
+        "Website": "Https://www.shifa.com.pk",
+        "Address": "Pitras Bukhari Road, H-8/4, Islamabad Pakistan",
+        "Specialization": "Cardiology Dental Oncology Orthopedics Cosmetic Surgery Pulmonology Transplant",
+        "ContactPerson": "Dr. Abdul Wahid",
+        "Phone": "+92-334-6600601[email\u00a0protected]"
+    },
+    {
+        "Name": "E-Shifa",
+        "City": "Islamabad",
+        "Province": "Federal Capital",
+        "Website": "Https://www.shifa.com.pk",
+        "Address": "Pitras Bukhari Road, H-8/4, Islamabad Pakistan",
+        "Specialization": "Cardiology Dental Oncology Orthopedics Cosmetic Surgery Pulmonology Transplant",
+        "ContactPerson": "Dr. Abdul Wahid",
+        "Phone": "+92-334-6600601[email\u00a0protected]"
+    },
+    {
+        "Name": "All Medical Centre",
+        "City": "Islamabad",
+        "Province": "Federal Capital",
+        "Website": "https://allmedical.org",
+        "Address": "3-B, Kohistan Road, F-8 Markaz, Islamabad",
+        "Specialization": "General Surgery Neuro Surgery Obstetrics and Gynaecology Orthopedics Transplant",
+        "ContactPerson": "Mr. Jawad Sidique",
+        "Phone": "+92-300-5033666[email\u00a0protected]"
+    },
+    {
+        "Name": "Quaid-e-Azam International Hospital",
+        "City": "Islamabad",
+        "Province": "Federal Capital",
+        "Website": "https://www.qih.com.pk",
+        "Address": "Golra Mor, Peshawar Road, Islamabad",
+        "Specialization": "Cardiology Dental Orthopedics Transplant",
+        "ContactPerson": "Sadaqat Baig",
+        "Phone": "+92-335-5100300[email\u00a0protected]"
+    },
+    {
+        "Name": "Rehman Medical Institute",
+        "City": "Peshawar",
+        "Province": "KPK",
+        "Website": "https://rmi.edu.pk",
+        "Address": "5/B-2, Phase 5 Hayatabad, Peshawar",
+        "Specialization": "Cardiology Dental Orthopedics Transplant",
+        "ContactPerson": "Mohammad Rehman",
+        "Phone": "+92-091-5838000[email\u00a0protected]"
+    },
+    {
+        "Name": "Hameed Latif Hospital",
+        "City": "Lahore",
+        "Province": "Punjab",
+        "Website": "https://www.hameedlatifhospital.com",
+        "Address": "14, Abu Bakar Block New Garden Town, Lahore, Punjab",
+        "Specialization": "Cardiology Neuro Surgery Obstetrics and Gynaecology Orthopedics Cosmetic Surgery",
+        "ContactPerson": "Dr. Irfan",
+        "Phone": "+92-321-1118318[email\u00a0protected]"
+    },
+    {
+        "Name": "Hearts International",
+        "City": "Rawalpindi",
+        "Province": "Punjab",
+        "Website": "",
+        "Address": "192-A, The Mall Road, Rawalpindi, Punjab Pakistan",
+        "Specialization": "Cardiology General Surgery Obstetrics and Gynaecology Urology Radiology",
+        "ContactPerson": "Dr. Shahid Sultan",
+        "Phone": ""
+    },
+    {
+        "Name": "Doctors Hospital",
+        "City": "Lahore",
+        "Province": "Punjab",
+        "Website": "https://doctorshospital.com.pk",
+        "Address": "152-G/1, Canal Bank Road, Johar Town, Block G-1, Phase 1, Johar Town, Lahore, Punjab, 54590",
+        "Specialization": "Cardiology General Surgery Pulmonology Gastroenlerology Medicines",
+        "ContactPerson": "Dr. Shahid Razzaque Qureshi",
+        "Phone": "+92-321-4472050[email\u00a0protected]"
+    },
+    {
+        "Name": "Kulsum International Hospital",
+        "City": "Islamabad",
+        "Province": "Federal Capital",
+        "Website": "http://kih.com.pk",
+        "Address": "Kalsum Plaza, Blue Area, Islamabad",
+        "Specialization": "Cardiology General Surgery Pulmonology",
+        "ContactPerson": "Dr. Muhammad Saleem Khan",
+        "Phone": "+92-3455179964[email\u00a0protected]"
+    },
+    {
+        "Name": "Medikay Cardiac Center",
+        "City": "Islamabad",
+        "Province": "Federal Capital",
+        "Website": "http://medikay.com.pk",
+        "Address": "Park Road, Chak Shahzad, Islamabad",
+        "Specialization": "Cardiology",
+        "ContactPerson": "Maj. Gen. \u00ae Azhar Mahmood Kiyani",
+        "Phone": "+92-300-8481990[email\u00a0protected]"
+    },
+    {
+        "Name": "Bahria International Hospital",
+        "City": "Lahore",
+        "Province": "Punjab",
+        "Website": "https://bahriainternationalhospital.com",
+        "Address": "Takbeer Block, Sector 8, Bahria Town, Lahore , Pakistan",
+        "Specialization": "Cardiology Transplant Orthopedics Otology",
+        "ContactPerson": "Dr. Shazia Asim",
+        "Phone": "+92-323-5113427[email\u00a0protected]"
+    },
+    {
+        "Name": "MMC General Hospital",
+        "City": "Peshawar",
+        "Province": "KPK",
+        "Website": "https://www.mmcgh.pk",
+        "Address": "Shinwari Town, Ring Road, Peshawar",
+        "Specialization": "Cardiology Orthopedics Pediatrics Urology",
+        "ContactPerson": "Sartaj Khan",
+        "Phone": "+92-333-8007339[email\u00a0protected]"
+    },
+    {
+        "Name": "Northwest General Hospital",
+        "City": "Peshawar",
+        "Province": "KPK",
+        "Website": "https://nwgn.pk",
+        "Address": "Sector A-3, Phase V, Hayatabad, Peshawar",
+        "Specialization": "Cardiology Rediology Pulmonology",
+        "ContactPerson": "Zia ur Rehman",
+        "Phone": "+92-91-5838800[email\u00a0protected]"
+    },
+    {
+        "Name": "South City Hospital",
+        "City": "Karachi",
+        "Province": "Sindh",
+        "Website": "https://southcityhospital.org",
+        "Address": "St-1, Shahrah-e-Firdousi, Block 3, Clifton, Karachi",
+        "Specialization": "Cardiology Orthopedics Obstetrics and Gynaecology General Surgery",
+        "ContactPerson": "Dr. Munir Ahmed",
+        "Phone": "+92-331-7520000[email\u00a0protected]"
+    },
+    {
+        "Name": "Tabba Heart Institute",
+        "City": "Karachi",
+        "Province": "Sindh",
+        "Website": "https://tabbaheart.org",
+        "Address": "St-1, Block 2, Federal B Area, Karachi",
+        "Specialization": "Cardiology",
+        "ContactPerson": "Dr. Humayun Mohmand",
+        "Phone": "+92-300-9558737[email\u00a0protected]"
+    },
+    {
+        "Name": "Irfan General Hospital",
+        "City": "Peshawar",
+        "Province": "KPK",
+        "Website": "https://irfangeneralhospital.pk",
+        "Address": "Opposite Eidgah Charsadda Road, Peshawar",
+        "Specialization": "Orthopedics General Surgery Neurosurgery Obstetrics & Gynaecology Ear, Nose & Throat",
+        "ContactPerson": "Said Wali Khan",
+        "Phone": "+92-321-9123628[email\u00a0protected]"
+    },
+    {
+        "Name": "Dr. Zia uddin Hospital",
+        "City": "Karachi",
+        "Province": "Sindh",
+        "Website": "https://www.ziauddinhospital.com",
+        "Address": "Block B, North Nazimabad, Karachi",
+        "Specialization": "Orthopedics Obstetrics & Gynaecology Ear,Nose & Throat Physiotherapy",
+        "ContactPerson": "Dr. Inayaat Ali Khan",
+        "Phone": "+92-333-3156628[email\u00a0protected]"
+    },
+    {
+        "Name": "Peshawar Institute of Medical Sciences",
+        "City": "Peshawar",
+        "Province": "KPK",
+        "Website": "https://pimspeshawar.com",
+        "Address": "2/B-2, Phase 5, Hayatabad, Peshawar",
+        "Specialization": "General Surgery",
+        "ContactPerson": "Muhammad Tariq",
+        "Phone": "+92-300-5830823[email\u00a0protected]"
+    },
+    {
+        "Name": "Hair Transplant Institute",
+        "City": "Islamabad",
+        "Province": "Federal Capital",
+        "Website": "https://hti.com.pk",
+        "Address": "I & T Center, Plot No. 40, Jehlum Road, G-8/4, G-8, Islamabad, Islamabad Capital Territory 44000",
+        "Specialization": "Cosmetic Surgery",
+        "ContactPerson": "Dr. Humayun Mohmand",
+        "Phone": "+92-300-9558737[email\u00a0protected]"
+    },
+    {
+        "Name": "Cosmetic Expert Clinic",
+        "City": "Peshawar",
+        "Province": "KPK",
+        "Website": "https://cosmeticexpert.com.pk",
+        "Address": "23-C, Battani Plaza, University Town, Peshawar",
+        "Specialization": "Cosmetic Surgery",
+        "ContactPerson": "Dr. Salman",
+        "Phone": "+92-333-9215884[email\u00a0protected]"
+    },
+    {
+        "Name": "Concept Fertility Clinic",
+        "City": "Karachi",
+        "Province": "Sindh",
+        "Website": "https://conceptfertility.com.pk/",
+        "Address": "F-6/1, Block 8, Near Teen Talwar Behind Gulf Mall, KDA Scheme No. 5 Clifton",
+        "Specialization": "Reproductive Medicine",
+        "ContactPerson": "Dr. Kiran",
+        "Phone": "+92-321-2183363[email\u00a0protected]"
+    },
+    {
+        "Name": "NIBD & BMT",
+        "City": "Karachi",
+        "Province": "Sindh",
+        "Website": "https://nibd.edupk",
+        "Address": "ST 2/A, Block 17 Gulshan-e-Iqbal KDA Scheme 24, Karachi",
+        "Specialization": "Bone Marrow Transplant Hematology related diseases Cancer Treatment",
+        "ContactPerson": "Tahir Sultan Shams",
+        "Phone": "+92-345-2383956[email\u00a0protected]"
+    },
+    {
+        "Name": "Prime Teaching Hospital",
+        "City": "Peshawar",
+        "Province": "KPK",
+        "Website": "https://pth.prime.edu.pk/",
+        "Address": "Warsak Road, District Peshawar",
+        "Specialization": "Neurosurgery Obesity Clinic Urology Ophthaimology Dentistry",
+        "ContactPerson": "Abdul Samad",
+        "Phone": "+92-345-9123099[email\u00a0protected]"
+    },
+    {
+        "Name": "Horizon",
+        "City": "Lahore",
+        "Province": "Punjab",
+        "Website": "https://horizonhospital.org",
+        "Address": "403, 404, 436 Block D-II, M.A Block D2, Phase 1, Johar Town, Lahor, Punjab 54770",
+        "Specialization": "Hip Replacement Knee Replacement",
+        "ContactPerson": "Dr. Amir Faizi",
+        "Phone": "+92-300-5445260[email\u00a0protected]"
+    },
+    {
+        "Name": "Dr. Zia uddin Hospital",
+        "City": "Karachi",
+        "Province": "Sindh",
+        "Website": "https://www.ziauddinhospital.com",
+        "Address": "Clifton 4/B, Shahrah-e-Ghalib, Block 6, Clifton Karachi",
+        "Specialization": "Multi-Disciplinary Tertiary Care Renal Transplant Spinal Cord Orthopedic Surgery",
+        "ContactPerson": "Dr. Anoop Dawani",
+        "Phone": "+92-321-3660243[email\u00a0protected]"
+    }
+]
