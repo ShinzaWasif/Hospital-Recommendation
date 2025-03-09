@@ -22,6 +22,68 @@
 #     app.run(debug=True)  # Only run Flask once!
 
 
+
+
+# from flask import Flask, request, jsonify
+# import nltk
+# from nltk.tokenize import word_tokenize
+# from fuzzywuzzy import process
+# import json
+# from flask_cors import CORS
+
+# app = Flask(__name__)
+# CORS(app)  # Enable CORS to allow frontend requests
+
+# nltk.download("punkt")
+
+# # Load hospital data
+# with open("hospitals.json", "r", encoding="utf-8") as file:
+#     hospital_data = json.load(file)
+
+# # Function to find the best matching hospitals
+# def find_matching_hospitals(query):
+#     query_tokens = word_tokenize(query.lower())
+#     matches = []
+
+#     for hospital in hospital_data:
+#         hospital_info = f"{hospital['Name']} {hospital['City']} {hospital['Specialization']}"
+#         match_score = process.extractOne(query, [hospital_info])[1]
+
+#         if match_score > 50:  # Threshold to filter relevant hospitals
+#             matches.append((hospital, match_score))
+
+#     matches.sort(key=lambda x: x[1], reverse=True)  # Sort by relevance
+#     return [hospital[0] for hospital in matches]  # Return hospital details
+
+# @app.route("/chatbot", methods=["POST"])
+# def chatbot():
+#     data = request.get_json()
+#     user_query = data.get("query", "")
+
+#     if not user_query:
+#         return jsonify({"response": "Please provide a valid query."})
+
+#     matching_hospitals = find_matching_hospitals(user_query)
+
+#     if matching_hospitals:
+#         response_texts = [
+#             (
+#                 f"Hospital: {hospital['Name']}\n"
+#                 f"City: {hospital['City']}, {hospital['Province']}\n"
+#                 f"Specialization: {hospital['Specialization']}\n"
+#                 f"Phone: {hospital['Phone']}\n"
+#                 f"Address: {hospital['Address']}\n"
+#                 f"Website: {hospital['Website'] if hospital['Website'] != '-' else 'N/A'}"
+#             )
+#             for hospital in matching_hospitals
+#         ]
+#         return jsonify({"response": "\n\n".join(response_texts)})
+#     else:
+#         return jsonify({"response": "Sorry, no matching hospitals found."})
+
+# if __name__ == "__main__":
+#     app.run(debug=True)
+
 from flask import Flask, request, jsonify
 import nltk
 from nltk.tokenize import word_tokenize
@@ -30,54 +92,84 @@ import json
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS to allow frontend requests
+CORS(app)  # Enable CORS for frontend communication
 
-nltk.download('punkt_tab')
+nltk.download("punkt")
+
 # Load hospital data
 with open("hospitals.json", "r", encoding="utf-8") as file:
     hospital_data = json.load(file)
 
-# Function to find best hospital match
-def find_best_hospital(query):
-    query_tokens = word_tokenize(query.lower())
+# Function to extract city from query (if mentioned)
+def extract_city_from_query(query):
+    query_tokens = set(word_tokenize(query.lower()))
+    possible_cities = {hospital["City"].lower() for hospital in hospital_data}
 
-    best_match = None
-    best_score = 0
+    # Check if any word in query matches a city
+    for city in possible_cities:
+        if city in query_tokens:
+            return city
+    return None
 
+# Function to find matching hospitals
+def find_matching_hospitals(query):
+    query = query.lower().strip()
+    query_tokens = set(word_tokenize(query))  # Tokenize query for better matching
+    city_filter = extract_city_from_query(query)  # Extract city if mentioned
+
+    exact_matches = []
+    fuzzy_candidates = []
+    specializations_dict = {}
+
+    # **Collect all hospitals in a dictionary for fuzzy matching**
     for hospital in hospital_data:
-        hospital_info = f"{hospital['Name']} {hospital['City']} {hospital['Specialization']}"
-        match_score = process.extractOne(query, [hospital_info])[1]
+        specialization = hospital["Specialization"].lower()
+        hospital_city = hospital["City"].lower()
+        specializations_dict[specialization] = hospital
 
-        if match_score > best_score:
-            best_score = match_score
-            best_match = hospital
+        # **Strict word match (full token or phrase match)**
+        specialization_tokens = set(word_tokenize(specialization))
+        
+        # Check if query matches specialization
+        if query in specialization or query_tokens & specialization_tokens:
+            if city_filter:
+                # If city is mentioned, match only hospitals in that city
+                if hospital_city == city_filter:
+                    exact_matches.append(hospital)
+            else:
+                exact_matches.append(hospital)
 
-    return best_match
+    # **Fuzzy matching only if exact matches are missing**
+    if not exact_matches:
+        fuzzy_results = process.extract(query, specializations_dict.keys(), limit=10)  # Get top 10 results
+
+        for best_match, score in fuzzy_results:
+            if score > 70:  # Adjustable threshold
+                hospital = specializations_dict[best_match]
+                if city_filter:
+                    if hospital["City"].lower() == city_filter:
+                        fuzzy_candidates.append(hospital)
+                else:
+                    fuzzy_candidates.append(hospital)
+
+    # Combine exact matches with fuzzy ones, ensuring no duplicates
+    final_results = exact_matches + fuzzy_candidates
+    return final_results if final_results else None
 
 @app.route("/chatbot", methods=["POST"])
 def chatbot():
     data = request.get_json()
-    user_query = data.get("query", "")
+    user_query = data.get("query", "").strip()
 
     if not user_query:
         return jsonify({"response": "Please provide a valid query."})
 
-    best_hospital = find_best_hospital(user_query)
+    matching_hospitals = find_matching_hospitals(user_query)
 
-    if best_hospital:
-        response_text = (
-            f"Hospital: {best_hospital['Name']}\n"
-            f"City: {best_hospital['City']}, {best_hospital['Province']}\n"
-            f"Specialization: {best_hospital['Specialization']}\n"
-            f"Phone: {best_hospital['Phone']}\n"
-            f"Address: {best_hospital['Address']}\n"
-            f"Website: {best_hospital['Website'] if best_hospital['Website'] != '-' else 'N/A'}"
-        )
+    if matching_hospitals:
+        return jsonify({"response": matching_hospitals})
     else:
-        response_text = "Sorry, I couldn't find any hospital matching your query."
-
-    return jsonify({"response": response_text})
+        return jsonify({"response": "Sorry, no matching hospitals found."})
 
 if __name__ == "__main__":
-    nltk.download("punkt")
     app.run(debug=True)
