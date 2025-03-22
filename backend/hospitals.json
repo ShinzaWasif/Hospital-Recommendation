@@ -7,7 +7,8 @@
         "Address": "H2VV+F6R, Abid Majeed Road, Rawalpindi",
         "Specialization": "Multi-Disciplinary",
         "ContactPerson": "-",
-        "Phone": "051-9273480"
+        "Phone": "051-9273480",
+        "Fees": "50000-60000"
     },
     {
         "Name": "MedAsk Tours",
@@ -17,7 +18,8 @@
         "Address": "1st Floor AWT Plaza, Rawalpindi",
         "Specialization": "Medical Tourism",
         "ContactPerson": "Muhammad Hassaan",
-        "Phone": "0319-6048487"
+        "Phone": "0319-6048487",
+        "Fees": "45000-60000"
     },
     {
         "Name": "Agha Khan University Hospital",
@@ -27,7 +29,8 @@
         "Address": "Stadium Road, P. O. Box 3500 Karachi",
         "Specialization": "Cardiology Dental Oncology Orthopedics Cosmetic Surgery",
         "ContactPerson": "Ibrahim Mustafa",
-        "Phone": "+92-302-8230979 ibrahim.mustafa@aku.edu"
+        "Phone": "+92-302-8230979 ibrahim.mustafa@aku.edu",
+        "Fees": "40000-60000"
     },
     {
         "Name": "Shoukat Khanum M Hospital",
@@ -37,7 +40,8 @@
         "Address": "7-A, Block R-3, MA Johar Town, Lahore, Pakistan",
         "Specialization": "Cancer Treatment",
         "ContactPerson": "Dr. Ahsan Malik",
-        "Phone": "+92-310-5338444 ahsanmalik@skm.org.pk"
+        "Phone": "+92-310-5338444 ahsanmalik@skm.org.pk",
+        "Fees": "30000-60000"
     },
     {
         "Name": "Shoukat Khanum M Hospital",
@@ -47,7 +51,8 @@
         "Address": "5-B, Sector A2, Phase 5 Hayatabad, Peshawar, Pakistan",
         "Specialization": "Cancer Treatment",
         "ContactPerson": "Dr. Ahsan Malik",
-        "Phone": "+92-310-5338444 ahsanmalik@skm.org.pk"
+        "Phone": "+92-310-5338444 ahsanmalik@skm.org.pk",
+        "Fees": "25000-40000"
     },
     {
         "Name": "Shifa International",
@@ -57,7 +62,8 @@
         "Address": "Pitras Bukhari Road, H-8/4, Islamabad Pakistan",
         "Specialization": "Cardiology Dental Oncology Orthopedics Cosmetic Surgery Pulmonology Transplant",
         "ContactPerson": "Dr. Abdul Wahid",
-        "Phone": "+92-334-6600601 wahab.hassan@shifa.com.pk"
+        "Phone": "+92-334-6600601 wahab.hassan@shifa.com.pk",
+        "Fees": "50000-80000"
     },
     {
         "Name": "E-Shifa",
@@ -67,7 +73,8 @@
         "Address": "Pitras Bukhari Road, H-8/4, Islamabad Pakistan",
         "Specialization": "Cardiology Dental Oncology Orthopedics Cosmetic Surgery Pulmonology Transplant",
         "ContactPerson": "Dr. Abdul Wahid",
-        "Phone": "+92-334-6600601 wahab.hassan@shifa.com.pk"
+        "Phone": "+92-334-6600601 wahab.hassan@shifa.com.pk",
+        "Fees": "70000-100000"
     },
     {
         "Name": "All Medical Centre",
@@ -75,9 +82,10 @@
         "Province": "Federal Capital",
         "Website": "https://allmedical.org",
         "Address": "3-B, Kohistan Road, F-8 Markaz, Islamabad",
-        "Specialization": "General Surgery Neuro Surgery Obstetrics and Gynaecology Orthopedics Transplant",
+        "Specialization": "General Surgery Neurosurgery Obstetrics and Gynaecology Orthopedics Transplant",
         "ContactPerson": "Mr. Jawad Sidique",
-        "Phone": "+92-300-5033666 info@alimedical.org"
+        "Phone": "+92-300-5033666 info@alimedical.org",
+        "Fees": "100000-150000"
     },
     {
         "Name": "Quaid-e-Azam International Hospital",
@@ -87,7 +95,8 @@
         "Address": "Golra Mor, Peshawar Road, Islamabad",
         "Specialization": "Cardiology Dental Orthopedics Transplant",
         "ContactPerson": "Sadaqat Baig",
-        "Phone": "+92-335-5100300 info@qih.com.pk"
+        "Phone": "+92-335-5100300 info@qih.com.pk",
+        "Fees": "65000-90000"
     },
     {
         "Name": "Rehman Medical Institute",
@@ -97,7 +106,8 @@
         "Address": "5/B-2, Phase 5 Hayatabad, Peshawar",
         "Specialization": "Cardiology Dental Orthopedics Transplant",
         "ContactPerson": "Mohammad Rehman",
-        "Phone": "+92-091-5838000 info@rmi.edu.pk"
+        "Phone": "+92-091-5838000 info@rmi.edu.pk",
+        "Fees": "85000-95000"
     },
     {
         "Name": "Hameed Latif Hospital",
@@ -105,9 +115,10 @@
         "Province": "Punjab",
         "Website": "https://www.hameedlatifhospital.com",
         "Address": "14, Abu Bakar Block New Garden Town, Lahore, Punjab",
-        "Specialization": "Cardiology Neuro Surgery Obstetrics and Gynaecology Orthopedics Cosmetic Surgery",
+        "Specialization": "Cardiology Neurosurgery Obstetrics and Gynaecology Orthopedics Cosmetic Surgery",
         "ContactPerson": "Dr. Irfan",
-        "Phone": "+92-321-1118318 info@hameedlatifhospital.com"
+        "Phone": "+92-321-1118318 info@hameedlatifhospital.com",
+        "Fees": "30000-45000"
     },
     {
         "Name": "Hearts International",
@@ -117,7 +128,8 @@
         "Address": "192-A, The Mall Road, Rawalpindi, Punjab Pakistan",
         "Specialization": "Cardiology General Surgery Obstetrics and Gynaecology Urology Radiology",
         "ContactPerson": "Dr. Shahid Sultan",
-        "Phone": ""
+        "Phone": "",
+        "Fees": "28000-65000"
     },
     {
         "Name": "Doctors Hospital",
@@ -127,7 +139,8 @@
         "Address": "152-G/1, Canal Bank Road, Johar Town, Block G-1, Phase 1, Johar Town, Lahore, Punjab, 54590",
         "Specialization": "Cardiology General Surgery Pulmonology Gastroenlerology Medicines",
         "ContactPerson": "Dr. Shahid Razzaque Qureshi",
-        "Phone": "+92-321-4472050 info@dhmc.com.pk"
+        "Phone": "+92-321-4472050 info@dhmc.com.pk",
+        "Fees": "65000-80000"
     },
     {
         "Name": "Kulsum International Hospital",
@@ -137,7 +150,8 @@
         "Address": "Kalsum Plaza, Blue Area, Islamabad",
         "Specialization": "Cardiology General Surgery Pulmonology",
         "ContactPerson": "Dr. Muhammad Saleem Khan",
-        "Phone": "+92-3455179964 contact@kih.com.pk"
+        "Phone": "+92-3455179964 contact@kih.com.pk",
+        "Fees": "35000-70000"
     },
     {
         "Name": "Medikay Cardiac Center",
@@ -147,7 +161,8 @@
         "Address": "Park Road, Chak Shahzad, Islamabad",
         "Specialization": "Cardiology",
         "ContactPerson": "Maj. Gen. \u00ae Azhar Mahmood Kiyani",
-        "Phone": "+92-300-8481990 info@medikay.com.pk"
+        "Phone": "+92-300-8481990 info@medikay.com.pk",
+        "Fees": "55000-70000"
     },
     {
         "Name": "Bahria International Hospital",
@@ -157,7 +172,8 @@
         "Address": "Takbeer Block, Sector 8, Bahria Town, Lahore , Pakistan",
         "Specialization": "Cardiology Transplant Orthopedics Otology",
         "ContactPerson": "Dr. Shazia Asim",
-        "Phone": "+92-323-5113427 info@bahriainternationalhospital.com"
+        "Phone": "+92-323-5113427 info@bahriainternationalhospital.com",
+        "Fees": "80000-100000"
     },
     {
         "Name": "MMC General Hospital",
@@ -167,7 +183,8 @@
         "Address": "Shinwari Town, Ring Road, Peshawar",
         "Specialization": "Cardiology Orthopedics Pediatrics Urology",
         "ContactPerson": "Sartaj Khan",
-        "Phone": "+92-333-8007339 info@mmcgh.pk"
+        "Phone": "+92-333-8007339 info@mmcgh.pk",
+        "Fees": "150000-200000"
     },
     {
         "Name": "Northwest General Hospital",
@@ -177,7 +194,8 @@
         "Address": "Sector A-3, Phase V, Hayatabad, Peshawar",
         "Specialization": "Cardiology Rediology Pulmonology",
         "ContactPerson": "Zia ur Rehman",
-        "Phone": "+92-91-5838800 info@nwgh.pk"
+        "Phone": "+92-91-5838800 info@nwgh.pk",
+        "Fees": "65000-90000"
     },
     {
         "Name": "South City Hospital",
@@ -187,7 +205,8 @@
         "Address": "St-1, Shahrah-e-Firdousi, Block 3, Clifton, Karachi",
         "Specialization": "Cardiology Orthopedics Obstetrics and Gynaecology General Surgery",
         "ContactPerson": "Dr. Munir Ahmed",
-        "Phone": "+92-331-7520000 info@southcityhospital.org"
+        "Phone": "+92-331-7520000 info@southcityhospital.org",
+        "Fees": "65000-90000"
     },
     {
         "Name": "Tabba Heart Institute",
@@ -197,7 +216,8 @@
         "Address": "St-1, Block 2, Federal B Area, Karachi",
         "Specialization": "Cardiology",
         "ContactPerson": "Dr. Humayun Mohmand",
-        "Phone": "+92-300-9558737 info@hti.com.pk"
+        "Phone": "+92-300-9558737 info@hti.com.pk",
+        "Fees": "45000-90000"
     },
     {
         "Name": "Irfan General Hospital",
@@ -207,7 +227,8 @@
         "Address": "Opposite Eidgah Charsadda Road, Peshawar",
         "Specialization": "Orthopedics General Surgery Neurosurgery Obstetrics & Gynaecology Ear, Nose & Throat",
         "ContactPerson": "Said Wali Khan",
-        "Phone": "+92-321-9123628 irfangeneralhospital@gmail.com"
+        "Phone": "+92-321-9123628 irfangeneralhospital@gmail.com",
+        "Fees": "75000-90000"
     },
     {
         "Name": "Dr. Zia uddin Hospital",
@@ -217,7 +238,8 @@
         "Address": "Block B, North Nazimabad, Karachi",
         "Specialization": "Orthopedics Obstetrics & Gynaecology Ear,Nose & Throat Physiotherapy",
         "ContactPerson": "Dr. Inayaat Ali Khan",
-        "Phone": "+92-333-3156628 info@ziauddinhospital.com"
+        "Phone": "+92-333-3156628 info@ziauddinhospital.com",
+        "Fees": "150000-190000"
     },
     {
         "Name": "Peshawar Institute of Medical Sciences",
@@ -227,7 +249,8 @@
         "Address": "2/B-2, Phase 5, Hayatabad, Peshawar",
         "Specialization": "General Surgery",
         "ContactPerson": "Muhammad Tariq",
-        "Phone": "+92-300-5830823 info@pimspeshawar.com"
+        "Phone": "+92-300-5830823 info@pimspeshawar.com",
+        "Fees": "35000-90000"
     },
     {
         "Name": "Hair Transplant Institute",
@@ -237,7 +260,8 @@
         "Address": "I & T Center, Plot No. 40, Jehlum Road, G-8/4, G-8, Islamabad, Islamabad Capital Territory 44000",
         "Specialization": "Cosmetic Surgery",
         "ContactPerson": "Dr. Humayun Mohmand",
-        "Phone": "+92-300-9558737 info@hti.com.pk"
+        "Phone": "+92-300-9558737 info@hti.com.pk",
+        "Fees": "35000-90000"
     },
     {
         "Name": "Cosmetic Expert Clinic",
@@ -247,7 +271,8 @@
         "Address": "23-C, Battani Plaza, University Town, Peshawar",
         "Specialization": "Cosmetic Surgery",
         "ContactPerson": "Dr. Salman",
-        "Phone": "+92-333-9215884 cosmeticexpert2019@gmail.com"
+        "Phone": "+92-333-9215884 cosmeticexpert2019@gmail.com",
+        "Fees": "55000-75000"
     },
     {
         "Name": "Concept Fertility Clinic",
@@ -257,7 +282,8 @@
         "Address": "F-6/1, Block 8, Near Teen Talwar Behind Gulf Mall, KDA Scheme No. 5 Clifton",
         "Specialization": "Reproductive Medicine",
         "ContactPerson": "Dr. Kiran",
-        "Phone": "+92-321-2183363 info@conceptfertility.com.pk"
+        "Phone": "+92-321-2183363 info@conceptfertility.com.pk",
+        "Fees": "55000-75000"
     },
     {
         "Name": "NIBD & BMT",
@@ -267,7 +293,8 @@
         "Address": "ST 2/A, Block 17 Gulshan-e-Iqbal KDA Scheme 24, Karachi",
         "Specialization": "Bone Marrow Transplant Hematology related diseases Cancer Treatment",
         "ContactPerson": "Tahir Sultan Shams",
-        "Phone": "+92-345-2383956 publications@nibd.edu.pk"
+        "Phone": "+92-345-2383956 publications@nibd.edu.pk",
+        "Fees": "100000-175000"
     },
     {
         "Name": "Prime Teaching Hospital",
@@ -277,7 +304,8 @@
         "Address": "Warsak Road, District Peshawar",
         "Specialization": "Neurosurgery Obesity Clinic Urology Ophthaimology Dentistry",
         "ContactPerson": "Abdul Samad",
-        "Phone": "+92-345-9123099 pth@prime.edu.pk"
+        "Phone": "+92-345-9123099 pth@prime.edu.pk",
+        "Fees": "70000-90000"
     },
     {
         "Name": "Horizon",
@@ -287,7 +315,8 @@
         "Address": "403, 404, 436 Block D-II, M.A Block D2, Phase 1, Johar Town, Lahor, Punjab 54770",
         "Specialization": "Hip Replacement Knee Replacement",
         "ContactPerson": "Dr. Amir Faizi",
-        "Phone": "+92-300-5445260 info@horizonhospital.org"
+        "Phone": "+92-300-5445260 info@horizonhospital.org",
+        "Fees": "700000-90000"
     },
     {
         "Name": "Dr. Zia uddin Hospital",
@@ -297,6 +326,7 @@
         "Address": "Clifton 4/B, Shahrah-e-Ghalib, Block 6, Clifton Karachi",
         "Specialization": "Multi-Disciplinary Tertiary Care Renal Transplant Spinal Cord Orthopedic Surgery",
         "ContactPerson": "Dr. Anoop Dawani",
-        "Phone": "+92-321-3660243 info@ziauddinhospital.com"
+        "Phone": "+92-321-3660243 info@ziauddinhospital.com",
+        "Fees": "120000-190000"
     }
 ]
