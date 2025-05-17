@@ -110,3 +110,63 @@ function Header() {
 
 export default Header;
 
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+dist
+dist-ssr
+*.local
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Downloaded NLTK data
+nltk_data/
+
+# Transformers model cache
+.cache/
+*.ckpt
+*.pt
+*.bin
+
+# Audio processing
+*.mp3
+*.wav
+*.ogg
+temp_audio_*.mp3
+
+# OS temp files
+*.tmp
+*.temp
+
+# Pygame & GTTS artifacts
+*.ogg
+*.mp3
+*.mod
