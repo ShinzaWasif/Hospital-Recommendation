@@ -1,4 +1,4 @@
-# Hospital-Recommendation
+# AIES CCP Project
 
 🏥 AI-Based Hospital Recommendation System
 This project is a smart hospital recommendation system developed in Python. It allows users to search for hospitals based on medical specialization, city, and fee range. The system uses the FuzzyWuzzy library to match user queries even when there are spelling mistakes or partial inputs.
